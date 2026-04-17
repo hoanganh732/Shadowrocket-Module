@@ -111,11 +111,6 @@ RevenueCatVip = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backu
 #RevenueCatDeleteHeader = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/deleteHeader.js, timeout=60
 #************************************#
 
-#iTunes
-#hostname = buy.itunes.apple.com
-#iTunes = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/hoanganh732/Shadowrocket-Module/refs/heads/main/js/Itunes.js, requires-body=true, max-size=-1, timeout=60
-#************************************#
-
 #Snow
 #hostname = user-snow-api.snow.me
 Snow = type=http-response, pattern=^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status, script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/Snow.js, requires-body=true, max-size=-1, timeout=60
